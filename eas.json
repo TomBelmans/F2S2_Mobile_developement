@@ -1,0 +1,24 @@
+{
+  "cli": {
+    "version": ">= 7.8.4"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_WEB_ID": "1036242790318-ttosnng4relod9fn5rbfae8beo20ch1u.apps.googleusercontent.com"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
